@@ -15,6 +15,7 @@ internal class Program
             }
             else
             {
+                Console.WriteLine(age % 2 == 0 ? "Number is even" : "Number is odd");
                 if (age >= 0 && age <= 2)
                 {
                     Console.WriteLine("Age group: baby");
